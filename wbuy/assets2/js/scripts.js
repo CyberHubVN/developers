@@ -5,9 +5,9 @@ jQuery(document).ready(function() {
         Fullscreen background
     */    
     $.backstretch([
-                           "assets/img/backgrounds/1.jpg"
-                         , "assets/img/backgrounds/2.jpg"
-                         , "assets/img/backgrounds/3.jpg"
+                           "https://cdn.rawgit.com/CyberHubVN/developers/master/wbuy/assets2/img/backgrounds/1.jpg"
+                         , "https://cdn.rawgit.com/CyberHubVN/developers/master/wbuy/assets2/img/backgrounds/2.jpg"
+                         , "https://cdn.rawgit.com/CyberHubVN/developers/master/wbuy/assets2/img/backgrounds/3.jpg"
                          ], {duration: 3000, fade: 750});
     
     $('#top-navbar-1').on('shown.bs.collapse', function(){
